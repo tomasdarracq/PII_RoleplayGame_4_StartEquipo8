@@ -2,6 +2,7 @@ namespace RoleplayGame.Items
 {
     public class PowerGem : IAttackItem
     {
+
         public int AttackPower
         {
             get
@@ -9,6 +10,7 @@ namespace RoleplayGame.Items
                 return 100;
             }
         }
+        
 
     }
 }
