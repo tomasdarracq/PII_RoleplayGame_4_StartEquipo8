@@ -3,8 +3,8 @@ namespace RoleplayGame.Items
     
     public class FlechaPrendidaFuego: IAttackItem, IDefenseItem
     {
-        Bow bow = new Bow();
-        Fuego fuego = new Fuego();
+        public Bow bow {set;get;}
+        public Fuego fuego {set;get;}
         public int AttackPower 
         {
             get
