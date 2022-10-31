@@ -1,6 +1,6 @@
 namespace RoleplayGame.Items
 {
-    public class Palo : IAttackItem
+    public class Palo : IAttackItem, IDefenseItem
     {
         public int AttackPower
         {
